@@ -1,7 +1,7 @@
 # debugging-a-smart-contract
 truffle公式サイトのdebugging-a-smart-contractやってみた
 
-## デバック方法
+## 基本のデバック方法（コマンド雑記）
 1. `truffle console`
 1. `truffle(develop)> migrate`
 1. `truffle(develop)> SimpleStorage.deployed().then(function(instance){return instance.get.call();}).then(function(value){return value.toNumber()});`  
@@ -12,5 +12,4 @@ solidityでは，uintで定義された変数は0が設定される.
 
 1. `truffle(develop)> SimpleStorage.deployed().then(function(instance){return instance.get.call();}).then(function(value){return value.toNumber()});`
 1. `4`
-
 
