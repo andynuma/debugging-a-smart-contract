@@ -1,5 +1,3 @@
-# debugging-a-smart-contract
-truffle公式サイトのdebugging-a-smart-contractやってみた
 
 ## 基本のデバック方法（コマンド雑記）
 1. `truffle console`
