@@ -15,6 +15,10 @@ solidityでは，uintで定義された変数は0が設定される.
 端末を２つ使用,
 片方の端末で`truffle develop --log`   
 もう片方で`関数呼び出し`，これでlogを取っている方にトランザクションハッシュがでる.  
+トランザクションID= txの値
+
+![2018-09-05 16 33 52](https://user-images.githubusercontent.com/29624403/45077931-8a7ca480-b129-11e8-9260-40747136f8de.png)
+
 
 `truffle(develop)>debug トランザクションID`，トランザクションのデバックのモードに入る.  
 使い方  
